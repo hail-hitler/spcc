@@ -14,6 +14,6 @@ if      { printf("Recognized Keyword: %s\n", yytext); }
 
 int main()
 {
-    yylex();
-    return 0;
+yylex();
+return 0;
 }
