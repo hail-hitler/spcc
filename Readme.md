@@ -1,6 +1,5 @@
 # SPCC Experiments README
 
-This repository contains various compiler tools, code generators, and system programming utilities. Below are instructions for executing each program.
 
 ## 1. Code Generator
 
