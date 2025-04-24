@@ -9,7 +9,7 @@
 
 **Execution Commands:**
 ```bash
-gcc -o code_gen code_gen.c
+gcc code_gen.c -o code_gen
 ./code_gen
 ```
 
@@ -22,7 +22,7 @@ This program reads assembly-like instructions from `coded_gen_input.txt` and con
 
 **Execution Commands:**
 ```bash
-gcc -o code_optimize code_optimize.c
+gcc code_optimize.c -o code_optimize
 ./code_optimize
 ```
 
@@ -36,7 +36,7 @@ This program performs dead code elimination and common subexpression elimination
 
 **Execution Commands:**
 ```bash
-gcc -o lexical_analyser lexical_analyser.c
+gcc lexical_analyser.c -o lexical_analyser
 ./lexical_analyser
 # When prompted, enter the filename: lexical_analyser.txt
 ```
@@ -51,7 +51,7 @@ This program analyzes the input file and identifies tokens, delimiters, and oper
 
 **Execution Commands:**
 ```bash
-gcc -o macro macro.c
+gcc macro.c -o macro
 ./macro
 ```
 
@@ -64,7 +64,7 @@ The program processes macros in the input file and generates `macout.dat` and `d
 
 **Execution Commands:**
 ```bash
-gcc -o operator_pres operator_pres.c
+gcc operator_pres.c -o operator_pres
 ./operator_pres
 # Enter an expression when prompted (e.g., i+i*i)
 ```
@@ -78,7 +78,7 @@ This program parses expressions using operator precedence relations.
 
 **Execution Commands:**
 ```bash
-gcc -o sr_parser sr_parser.c
+gcc sr_parser.c -o sr_parser
 ./sr_parser
 # Enter an input string when prompted (e.g., id+id*id)
 ```
@@ -124,7 +124,7 @@ This program implements a calculator that evaluates arithmetic expressions.
 
 **Execution Commands:**
 ```bash
-gcc -o two_pass_assembler two_pass_assembler.c
+gcc two_pass_assembler.c -o two_pass_assembler
 ./two_pass_assembler
 ```
 
